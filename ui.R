@@ -34,7 +34,7 @@ shinyUI( fluidPage(
       downloadButton('downloadPlot', 'Download Plot'),
       br(), br(),
       p("This App uses the ggbiplot package. For more information read the respective documentation in",
-        a("(tidyverse.org", href = "https://ggplot2.tidyverse.org"),
+        a("tidyverse.org", href = "https://ggplot2.tidyverse.org"),
         "."),
       p("Please keep the version tag on all downloaded files."),
       htmlOutput('appversion')
