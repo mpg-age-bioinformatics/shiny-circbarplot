@@ -21,7 +21,7 @@ shinyUI( fluidPage(
                                                                                 'comma-seperated' = ',', 
                                                                                 'semicolon-separated' = ';'), inline = TRUE),
       checkboxInput("header", "Header", TRUE),
-      helpText(a(href = "https://raw.githubusercontent.com/mpg-age-bioinformatics/shiny-circbarplot/master/test.data.tsv", "Example input")),
+      helpText(a(href = "https://datashare.mpcdf.mpg.de/s/vZESHmlTcAfUvCh/download", "Example input")),
       hr(),
       selectInput("group", "Select group column", choices = NULL,selected=NULL),
       selectInput("individual", "Select individual column", choices = NULL,selected=NULL),
